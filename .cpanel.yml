@@ -1,0 +1,5 @@
+---
+deployment:
+  task:
+    - export DEPLOYPATH=/home/schwartz/public_html/
+    - /bin/rsync -av src/ $DEPLOYPATH
